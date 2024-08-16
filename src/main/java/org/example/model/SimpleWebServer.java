@@ -41,10 +41,6 @@ class ClientHandler implements Runnable {
             }else if(method.equals("POST")&& !fileRequested.startsWith("/app")) {
                 handlePostRequest(fileRequested, out, dataOut);
             }
-            if (method.equals("GET") && fileRequested.startsWith("/app")) {
-                out.println("{\"nombre:\"" +
-                        "sebastian"}"");
-            }
             printHandler(requestLine,in);
 
         } catch (IOException e) {
