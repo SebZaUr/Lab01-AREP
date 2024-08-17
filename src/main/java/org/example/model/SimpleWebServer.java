@@ -2,6 +2,7 @@ package org.example.model;
 import java.io.*;
 import java.net.*;
 import java.util.concurrent.*;
+
 public class SimpleWebServer {
     private static final int PORT = 8080;
     public static final String WEB_ROOT = "src/main/resources/webroot";
@@ -36,12 +37,9 @@ class ClientHandler implements Runnable {
             String method = tokens[0];
             String fileRequested = tokens[1];
 
-            if (method.equals("GET") && !fileRequested.startsWith("/app")) {
+            if (method.equals("GET")) {
                 handleGetRequest(fileRequested, out, dataOut);
-            }else if(method.equals("POST")&& !fileRequested.startsWith("/app")) {
-                handlePostRequest(fileRequested, out, dataOut);
             }
-            printHandler(requestLine,in);
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -51,31 +49,8 @@ class ClientHandler implements Runnable {
     private void handleGetRequest(String fileRequested, PrintWriter out, BufferedOutputStream dataOut) throws IOException {
         File file = new File(SimpleWebServer.WEB_ROOT, fileRequested);
         int fileLength = (int) file.length();
-        String content = getContentType(fileRequested);
-
-        if (file.exists()) {
-            byte[] fileData = readFileData(file, fileLength);
-            out.println("HTTP/1.1 200 OK");
-            out.println("Content-type: " + content);
-            out.println("Content-length: " + fileLength);
-            out.println();
-            out.flush();
-            dataOut.write(fileData, 0, fileLength);
-            dataOut.flush();
-        } else {
-            out.println("HTTP/1.1 404 Not Found");
-            out.println("Content-type: text/html");
-            out.println();
-            out.flush();
-            out.println("<html><body><h1>File Not Found</h1></body></html>");
-            out.flush();
-        }
-    }
-
-    private void handlePostRequest(String fileRequested, PrintWriter out, BufferedOutputStream dataOut) throws IOException {
-        File file = new File(SimpleWebServer.WEB_ROOT, fileRequested);
-        int fileLength = (int) file.length();
-        String content = getContentType(fileRequested);
+        String carrer = fileRequested.split("/")[1];
+        String content = getContentType(carrer);
 
         if (file.exists()) {
             byte[] fileData = readFileData(file, fileLength);
@@ -102,6 +77,7 @@ class ClientHandler implements Runnable {
         else if (fileRequested.endsWith(".js")) return "application/javascript";
         else if (fileRequested.endsWith(".png")) return "image/png";
         else if (fileRequested.endsWith(".jpg")) return "image/jpeg";
+        else if (fileRequested.endsWith(".json")) return "application/json";
         return "text/plain";
     }
 
@@ -115,13 +91,5 @@ class ClientHandler implements Runnable {
             if (fileIn != null) fileIn.close();
         }
         return fileData;
-    }
-    
-    private void printHandler(String requestLine, BufferedReader in){
-        String inputLine = null;
-        while((inputLine=requestLine) != null){
-            System.out.println(inputLine);
-            break;
-        }
     }
 }

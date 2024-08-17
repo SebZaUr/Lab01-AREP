@@ -1,0 +1,83 @@
+[
+    {
+        "nombre": "Refrigeración Industrial",
+        "codigo": "REIN",
+        "creditos": 3,
+        "tipo": "ETO",
+        "prerrequisitos": ["TMDN"],
+        "linea_enfasis": "Instalaciones",
+        "departamento": "Centro de estudios de Energía"
+    },
+    {
+        "nombre": "Cátedra Siemens Subestaciones",
+        "codigo": "CSUB",
+        "creditos": 3,
+        "tipo": "ETO/OGR",
+        "prerrequisitos": ["ASP1"],
+        "linea_enfasis": "Sistemas de Potencia",
+        "departamento": "Centro de estudios de Energía"
+    },
+    {
+        "nombre": "Laboratorio Transient Network Analyser",
+        "codigo": "LTNA",
+        "creditos": 3,
+        "tipo": "ETO/OGR",
+        "prerrequisitos": ["ASP1"],
+        "linea_enfasis": "Sistemas de Potencia",
+        "departamento": "Centro de estudios de Energía"
+    },
+    {
+        "nombre": "Introducción a la Energía Solar Fotovoltáica",
+        "codigo": "IESF_M",
+        "creditos": 3,
+        "tipo": "CO",
+        "prerrequisitos": ["RCEN"],
+        "linea_enfasis": "Recursos Energéticos",
+        "departamento": "Maestría en Ingeniería Eléctrica"
+    },
+    {
+        "nombre": "Economía en Energía",
+        "codigo": "ECOE_M",
+        "creditos": 3,
+        "tipo": "CO",
+        "prerrequisitos": ["GENR"],
+        "linea_enfasis": "Recursos Energéticos",
+        "departamento": "Maestría en Ingeniería Eléctrica"
+    },
+    {
+        "nombre": "Regulación de Mercados Eléctricos",
+        "codigo": "REME_M",
+        "creditos": 3,
+        "tipo": "CO",
+        "prerrequisitos": ["PRYE"],
+        "linea_enfasis": "Mercados de Energía",
+        "departamento": "Maestría en Ingeniería Eléctrica"
+    },
+    {
+        "nombre": "Estudio de casos",
+        "codigo": "SPEC_M",
+        "creditos": 3,
+        "tipo": "CO",
+        "prerrequisitos": ["ASP1"],
+        "linea_enfasis": "Sistemas de Potencia",
+        "departamento": "Maestría en Ingeniería Eléctrica"
+    },
+    {
+        "nombre": "Generación Hidroeléctrica",
+        "codigo": "GEHI_M",
+        "creditos": 3,
+        "tipo": "CO",
+        "prerrequisitos": ["GENR"],
+        "linea_enfasis": "Recursos Energéticos",
+        "departamento": "Maestría en Ingeniería Eléctrica"
+    },
+    {
+        "nombre": "Protecciones",
+        "codigo": "PRTC_M",
+        "creditos": 3,
+        "tipo": "CO",
+        "prerrequisitos": ["ASP1"],
+        "linea_enfasis": "Sistemas de Potencia",
+        "departamento": "Maestría en Ingeniería Eléctrica"
+    }
+]
