@@ -1,9 +1,10 @@
 let courseList = []
-
+let courseConsult = ''
 
 function getCourses(type) {
     let course = document.getElementById(type).value;
     const xhttp = new XMLHttpRequest();
+    courseConsult = type;
     xhttp.onload = function() {
         courseList = JSON.parse(this.responseText);
         var previous = document.getElementById("previous");
@@ -41,10 +42,11 @@ function createTable(limit,start){
 
 function nextCourses(button) {
     var page = parseInt(document.getElementById(button).getAttribute('data-page'));
+    var course = document.getElementById('text');
+    course.textContent = courseConsult+":Pagina-"+ String(page+1);
     var parar = 0;
     var previous = document.getElementById("previous");
     var next = document.getElementById("next");
-    console.log(courseList.length);
     if ((page+1) * 10 > courseList.length) {
         previous.setAttribute('aria-disabled', false);
         next.setAttribute('aria-disabled', true);
@@ -70,7 +72,6 @@ function nextCourses(button) {
         next.setAttribute('data-page', page + 1);
         parar = (page*10) + 10;
     }
-    console.log(page,parar);
     createTable(parar, page*10);
 }
 

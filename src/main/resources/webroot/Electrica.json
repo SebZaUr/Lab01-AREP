@@ -5,7 +5,7 @@
         "creditos": 3,
         "tipo": "ETO",
         "prerrequisitos": ["TMDN"],
-        "linea_enfasis": "Instalaciones",
+        "area": "Instalaciones",
         "departamento": "Centro de estudios de Energía"
     },
     {
@@ -14,7 +14,7 @@
         "creditos": 3,
         "tipo": "ETO/OGR",
         "prerrequisitos": ["ASP1"],
-        "linea_enfasis": "Sistemas de Potencia",
+        "area": "Sistemas de Potencia",
         "departamento": "Centro de estudios de Energía"
     },
     {
@@ -23,7 +23,7 @@
         "creditos": 3,
         "tipo": "ETO/OGR",
         "prerrequisitos": ["ASP1"],
-        "linea_enfasis": "Sistemas de Potencia",
+        "area": "Sistemas de Potencia",
         "departamento": "Centro de estudios de Energía"
     },
     {
@@ -32,7 +32,7 @@
         "creditos": 3,
         "tipo": "CO",
         "prerrequisitos": ["RCEN"],
-        "linea_enfasis": "Recursos Energéticos",
+        "area": "Recursos Energéticos",
         "departamento": "Maestría en Ingeniería Eléctrica"
     },
     {
@@ -41,7 +41,7 @@
         "creditos": 3,
         "tipo": "CO",
         "prerrequisitos": ["GENR"],
-        "linea_enfasis": "Recursos Energéticos",
+        "area": "Recursos Energéticos",
         "departamento": "Maestría en Ingeniería Eléctrica"
     },
     {
@@ -50,7 +50,7 @@
         "creditos": 3,
         "tipo": "CO",
         "prerrequisitos": ["PRYE"],
-        "linea_enfasis": "Mercados de Energía",
+        "area": "Mercados de Energía",
         "departamento": "Maestría en Ingeniería Eléctrica"
     },
     {
@@ -59,7 +59,7 @@
         "creditos": 3,
         "tipo": "CO",
         "prerrequisitos": ["ASP1"],
-        "linea_enfasis": "Sistemas de Potencia",
+        "area": "Sistemas de Potencia",
         "departamento": "Maestría en Ingeniería Eléctrica"
     },
     {
@@ -68,7 +68,7 @@
         "creditos": 3,
         "tipo": "CO",
         "prerrequisitos": ["GENR"],
-        "linea_enfasis": "Recursos Energéticos",
+        "area": "Recursos Energéticos",
         "departamento": "Maestría en Ingeniería Eléctrica"
     },
     {
@@ -77,7 +77,7 @@
         "creditos": 3,
         "tipo": "CO",
         "prerrequisitos": ["ASP1"],
-        "linea_enfasis": "Sistemas de Potencia",
+        "area": "Sistemas de Potencia",
         "departamento": "Maestría en Ingeniería Eléctrica"
     }
 ]

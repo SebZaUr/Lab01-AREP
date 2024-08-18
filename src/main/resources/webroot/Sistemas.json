@@ -5,7 +5,7 @@
         "creditos": 3,
         "tipo": "ET0",
         "prerrequisitos": ["IAIA"],
-        "linea_enfasis": "Ingeniería en Inteligencia Artificial",
+        "area": "Ingeniería en Inteligencia Artificial",
         "departamento": "Ingeniería de Sistemas"
     },
     {
@@ -14,7 +14,7 @@
         "creditos": 3,
         "tipo": "ET0",
         "prerrequisitos": ["POOB", "MATD"],
-        "linea_enfasis": "Ingeniería en Inteligencia Artificial",
+        "area": "Ingeniería en Inteligencia Artificial",
         "departamento": "Ingeniería de Sistemas"
     },
     {
@@ -23,7 +23,7 @@
         "creditos": 3,
         "tipo": "ET0",
         "prerrequisitos": ["IAIA"],
-        "linea_enfasis": "Ingeniería en Inteligencia Artificial",
+        "area": "Ingeniería en Inteligencia Artificial",
         "departamento": "Ingeniería de Sistemas"
     },
     {
@@ -32,7 +32,7 @@
         "creditos": 4,
         "tipo": "ET0, OGR",
         "prerrequisitos": ["SPTI"],
-        "linea_enfasis": "Arquitectura Tecnológica y Seguridad",
+        "area": "Arquitectura Tecnológica y Seguridad",
         "departamento": "Maestría en Informática"
     },
     {
@@ -41,7 +41,7 @@
         "creditos": 3,
         "tipo": "ET0, OGR",
         "prerrequisitos": ["RECO"],
-        "linea_enfasis": "Arquitectura Tecnológica y Seguridad",
+        "area": "Arquitectura Tecnológica y Seguridad",
         "departamento": "Maestría en Informática"
     },
     {
@@ -50,7 +50,7 @@
         "creditos": 3,
         "tipo": "ET0, OGR",
         "prerrequisitos": ["SPTI"],
-        "linea_enfasis": "Arquitectura Tecnológica y Seguridad",
+        "area": "Arquitectura Tecnológica y Seguridad",
         "departamento": "Maestría en Informática"
     },
     {
@@ -59,7 +59,7 @@
         "creditos": 3,
         "tipo": "ET0, OGR",
         "prerrequisitos": ["SPTI"],
-        "linea_enfasis": "Arquitectura Tecnológica y Seguridad",
+        "area": "Arquitectura Tecnológica y Seguridad",
         "departamento": "Maestría en Informática"
     },
     {
@@ -68,7 +68,7 @@
         "creditos": 3,
         "tipo": "ET0, OGR",
         "prerrequisitos": ["PRYE"],
-        "linea_enfasis": "Informática Matemática/ Analytics",
+        "area": "Informática Matemática/ Analytics",
         "departamento": "Maestría en Informática"
     },
     {
@@ -77,7 +77,7 @@
         "creditos": 4,
         "tipo": "ET0, OGR",
         "prerrequisitos": ["PRYE"],
-        "linea_enfasis": "Informática Matemática/ Analytics",
+        "area": "Informática Matemática/ Analytics",
         "departamento": "Maestría en Informática"
     },
     {
@@ -86,7 +86,7 @@
         "creditos": 3,
         "tipo": "ET0, OGR",
         "prerrequisitos": ["CVDS"],
-        "linea_enfasis": "Ingeniería de Software",
+        "area": "Ingeniería de Software",
         "departamento": "Maestría en Informática"
     },
     {
@@ -95,7 +95,7 @@
         "creditos": 3,
         "tipo": "ET0, OGR",
         "prerrequisitos": ["CVDS"],
-        "linea_enfasis": "Ingeniería de Software",
+        "area": "Ingeniería de Software",
         "departamento": "Maestría en Informática"
     },
     {
@@ -104,7 +104,7 @@
         "creditos": 3,
         "tipo": "ET0, OGR",
         "prerrequisitos": ["CVDS"],
-        "linea_enfasis": "Ingeniería de Software",
+        "area": "Ingeniería de Software",
         "departamento": "Maestría en Informática"
     },
     {
@@ -113,7 +113,7 @@
         "creditos": 4,
         "tipo": "ET0, OGR",
         "prerrequisitos": ["CVDS"],
-        "linea_enfasis": "Sistemas y organizaciones",
+        "area": "Sistemas y organizaciones",
         "departamento": "Especialización en Estrategia, gobierno y gestión de datos"
     },
     {
@@ -122,7 +122,7 @@
         "creditos": 4,
         "tipo": "ET0, OGR",
         "prerrequisitos": ["ARSW"],
-        "linea_enfasis": "Sistemas y organizaciones",
+        "area": "Sistemas y organizaciones",
         "departamento": "Maestría en Gestión de Información"
     },
     {
@@ -131,7 +131,7 @@
         "creditos": 3,
         "tipo": "ET0, OGR",
         "prerrequisitos": ["ARSW"],
-        "linea_enfasis": "Sistemas y organizaciones",
+        "area": "Sistemas y organizaciones",
         "departamento": "Maestría en Gestión de Información"
     },
     {
@@ -140,7 +140,7 @@
         "creditos": 3,
         "tipo": "ET0, OGR",
         "prerrequisitos": ["PRYE"],
-        "linea_enfasis": "Analytics",
+        "area": "Analytics",
         "departamento": "Maestría en Ciencia de Datos"
     },
     {
@@ -149,7 +149,7 @@
         "creditos": 3,
         "tipo": "ET0, OGR",
         "prerrequisitos": ["PRYE"],
-        "linea_enfasis": "Analytics",
+        "area": "Analytics",
         "departamento": "Maestría en Ciencia de Datos"
     },
     {
@@ -158,7 +158,7 @@
         "creditos": 3,
         "tipo": "ET0, OGR",
         "prerrequisitos": ["PRYE"],
-        "linea_enfasis": "Analytics",
+        "area": "Analytics",
         "departamento": "Maestría en Ciencia de Datos"
     },
     {
@@ -167,7 +167,7 @@
         "creditos": 3,
         "tipo": "EPF/ETO",
         "prerrequisitos": ["FDGP"],
-        "linea_enfasis": "Gerencia de proyectos",
+        "area": "Gerencia de proyectos",
         "departamento": "Unidad de proyectos"
     },
     {
@@ -176,7 +176,7 @@
         "creditos": 3,
         "tipo": "EPF/ETO",
         "prerrequisitos": ["FDGP"],
-        "linea_enfasis": "Gerencia de proyectos",
+        "area": "Gerencia de proyectos",
         "departamento": "Unidad de proyectos"
     },
     {
@@ -185,7 +185,7 @@
         "creditos": 3,
         "tipo": "EPF/ETO",
         "prerrequisitos": ["FDGP"],
-        "linea_enfasis": "Gerencia de proyectos",
+        "area": "Gerencia de proyectos",
         "departamento": "Unidad de proyectos"
     },
     {
@@ -194,7 +194,7 @@
         "creditos": 3,
         "tipo": "ETO",
         "prerrequisitos": ["FUEC"],
-        "linea_enfasis": "Emprendimiento de base tecnológica",
+        "area": "Emprendimiento de base tecnológica",
         "departamento": "C.E. Gerencia y Transformación Empresarial / Administración de Empresas"
     },
     {
@@ -203,7 +203,7 @@
         "creditos": 3,
         "tipo": "ETO",
         "prerrequisitos": ["FUEC"],
-        "linea_enfasis": "Emprendimiento de base tecnológica",
+        "area": "Emprendimiento de base tecnológica",
         "departamento": "C.E. Gerencia y Transformación Empresarial / Administración de Empresas"
     },
     {
@@ -212,7 +212,7 @@
         "creditos": 3,
         "tipo": "ETO",
         "prerrequisitos": ["FUEC"],
-        "linea_enfasis": "Emprendimiento de base tecnológica",
+        "area": "Emprendimiento de base tecnológica",
         "departamento": "C.E. Gerencia y Transformación Empresarial / Administración de Empresas"
     }
 ]

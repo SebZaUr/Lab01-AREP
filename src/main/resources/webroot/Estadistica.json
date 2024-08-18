@@ -5,7 +5,7 @@
         "creditos": 3,
         "tipo": "ETO",
         "prerrequisitos": ["FUEC"],
-        "linea_enfasis": "Emprendimiento de base tecnológica",
+        "area": "Emprendimiento de base tecnológica",
         "departamento": "C.E. Gerencia y Transformación Empresarial / Administración de Empresas"
     },
     {
@@ -14,7 +14,7 @@
         "creditos": 3,
         "tipo": "ETO",
         "prerrequisitos": ["FUEC"],
-        "linea_enfasis": "Emprendimiento de base tecnológica",
+        "area": "Emprendimiento de base tecnológica",
         "departamento": "C.E. Gerencia y Transformación Empresarial / Administración de Empresas"
     },
     {
@@ -23,7 +23,7 @@
         "creditos": 3,
         "tipo": "ETO",
         "prerrequisitos": ["AMTV"],
-        "linea_enfasis": "Emprendimiento de base tecnológica",
+        "area": "Emprendimiento de base tecnológica",
         "departamento": "C.E. Gerencia y Transformación Empresarial / Administración de Empresas"
     },
     {
@@ -32,7 +32,7 @@
         "creditos": 3,
         "tipo": "EPF/ETO",
         "prerrequisitos": ["FDGP"],
-        "linea_enfasis": "Gerencia de proyectos",
+        "area": "Gerencia de proyectos",
         "departamento": "Unidad de proyectos"
     },
     {
@@ -41,7 +41,7 @@
         "creditos": 3,
         "tipo": "ETO",
         "prerrequisitos": ["MRGS"],
-        "linea_enfasis": "Economía",
+        "area": "Economía",
         "departamento": "Economía"
     },
     {
@@ -50,7 +50,7 @@
         "creditos": 3,
         "tipo": "ETO",
         "prerrequisitos": ["FCFI"],
-        "linea_enfasis": "Finanzas",
+        "area": "Finanzas",
         "departamento": "Economía"
     },
     {
@@ -59,7 +59,7 @@
         "creditos": 3,
         "tipo": "ETO",
         "prerrequisitos": ["FCFI"],
-        "linea_enfasis": "Finanzas",
+        "area": "Finanzas",
         "departamento": "Economía"
     },
     {
@@ -68,7 +68,7 @@
         "creditos": 3,
         "tipo": "CO",
         "prerrequisitos": ["MRGS"],
-        "linea_enfasis": "Actuaría",
+        "area": "Actuaría",
         "departamento": "Maestría en Ciencias Actuariales"
     },
     {
@@ -77,7 +77,7 @@
         "creditos": 3,
         "tipo": "CO",
         "prerrequisitos": ["MRGS"],
-        "linea_enfasis": "Analytics",
+        "area": "Analytics",
         "departamento": "Maestría en Ciencia de Datos"
     },
     {
@@ -86,7 +86,7 @@
         "creditos": 3,
         "tipo": "CO",
         "prerrequisitos": ["AMTV"],
-        "linea_enfasis": "Analytics",
+        "area": "Analytics",
         "departamento": "Maestría en Ciencia de Datos"
     },
     {
@@ -95,7 +95,7 @@
         "creditos": 3,
         "tipo": "CO",
         "prerrequisitos": ["MBDA"],
-        "linea_enfasis": "Analytics",
+        "area": "Analytics",
         "departamento": "Maestría en Ciencia de Datos"
     },
     {
@@ -104,7 +104,7 @@
         "creditos": 3,
         "tipo": "CO",
         "prerrequisitos": ["MRGS"],
-        "linea_enfasis": "Analytics",
+        "area": "Analytics",
         "departamento": "Maestría en Ciencia de Datos"
     },
     {
@@ -113,7 +113,7 @@
         "creditos": 3,
         "tipo": "CO",
         "prerrequisitos": ["AMTV"],
-        "linea_enfasis": "Gerencia de proyectos",
+        "area": "Gerencia de proyectos",
         "departamento": "Maestría Desarrollo y G. Integral de Proyectos"
     },
     {
@@ -122,7 +122,7 @@
         "creditos": 3,
         "tipo": "CO",
         "prerrequisitos": ["FUEC"],
-        "linea_enfasis": "Especialización en Economía para Ingenieros",
+        "area": "Especialización en Economía para Ingenieros",
         "departamento": "Especialización en Economía para Ingenieros"
     },
     {
@@ -131,7 +131,7 @@
         "creditos": 3,
         "tipo": "CO",
         "prerrequisitos": ["FUEC"],
-        "linea_enfasis": "Especialización en Economía para Ingenieros",
+        "area": "Especialización en Economía para Ingenieros",
         "departamento": "Especialización en Economía para Ingenieros"
     },
     {
@@ -140,7 +140,7 @@
         "creditos": 1,
         "tipo": "CO",
         "prerrequisitos": ["FUEC"],
-        "linea_enfasis": "Especialización en Economía para Ingenieros",
+        "area": "Especialización en Economía para Ingenieros",
         "departamento": "Especialización en Economía para Ingenieros"
     },
     {
@@ -149,7 +149,7 @@
         "creditos": 3,
         "tipo": "CO",
         "prerrequisitos": ["FCFI"],
-        "linea_enfasis": "Especialización en Economía para Ingenieros",
+        "area": "Especialización en Economía para Ingenieros",
         "departamento": "Especialización en Economía para Ingenieros"
     },
     {
@@ -158,7 +158,7 @@
         "creditos": 2,
         "tipo": "CO",
         "prerrequisitos": ["AMTV"],
-        "linea_enfasis": "Especialización Estrategía, Gestión y Gobierno de datos",
+        "area": "Especialización Estrategía, Gestión y Gobierno de datos",
         "departamento": "Especialización Estrategía, Gestión y Gobierno de datos"
     },
     {
@@ -167,7 +167,7 @@
         "creditos": 4,
         "tipo": "CO",
         "prerrequisitos": ["MRGS"],
-        "linea_enfasis": "Especialización Estrategía, Gestión y Gobierno de datos",
+        "area": "Especialización Estrategía, Gestión y Gobierno de datos",
         "departamento": "Especialización Estrategía, Gestión y Gobierno de datos"
     },
     {
@@ -176,7 +176,7 @@
         "creditos": 1,
         "tipo": "CO",
         "prerrequisitos": ["MRGS"],
-        "linea_enfasis": "Especialización en Estrategia, gestión y gobierno de Datos",
+        "area": "Especialización en Estrategia, gestión y gobierno de Datos",
         "departamento": "Especialización en Estrategia, gestión y gobierno de Datos"
     },
     {
@@ -185,7 +185,7 @@
         "creditos": 4,
         "tipo": "CO",
         "prerrequisitos": ["AMTV"],
-        "linea_enfasis": "Especialización Estrategía, Gestión y Gobierno de datos",
+        "area": "Especialización Estrategía, Gestión y Gobierno de datos",
         "departamento": "Especialización Estrategía, Gestión y Gobierno de datos"
     },
     {
@@ -194,7 +194,7 @@
         "creditos": 2,
         "tipo": "CO",
         "prerrequisitos": ["AMTV"],
-        "linea_enfasis": "Especialización Estrategía, Gestión y Gobierno de datos",
+        "area": "Especialización Estrategía, Gestión y Gobierno de datos",
         "departamento": "Especialización Estrategía, Gestión y Gobierno de datos"
     },
     {
@@ -203,7 +203,7 @@
         "creditos": 2,
         "tipo": "CO",
         "prerrequisitos": ["AMTV"],
-        "linea_enfasis": "Especialización Estrategía, Gestión y Gobierno de datos",
+        "area": "Especialización Estrategía, Gestión y Gobierno de datos",
         "departamento": "Especialización Estrategía, Gestión y Gobierno de datos"
     }
 ]
