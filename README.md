@@ -41,7 +41,7 @@ El proyecto ya esta corriendo, para abrirlo de click en este link en su navegado
 
 ### Prueba
 
-Ingrese al siguiente link [Viedo_Prueba](https://youtu.be/YAz2ODy_GK0)
+Ingrese al siguiente link [Video_Prueba](https://youtu.be/YAz2ODy_GK0)
 
 ***
 
