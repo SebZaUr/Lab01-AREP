@@ -37,7 +37,7 @@ La otra es una aplicación web hecha con javascript que me permite filtrar la in
     ```
     java -cp target/Lab01-AREP-1.0-SNAPSHOT.jar org.example.model.SimpleWebServer
     ```
-El proyecto ya esta corriendo, para abrirlo copie este link en su navegador [ECIELECTIVAS](http://locahost:8080).
+El proyecto ya esta corriendo, para abrirlo de click en este link en su navegador [ECIELECTIVAS](http://locahost:8080).
 
 ### Prueba
 
