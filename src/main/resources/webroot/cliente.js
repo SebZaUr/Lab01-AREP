@@ -73,6 +73,12 @@ function nextCourses(button) {
         parar = (page*10) + 10;
     }
     createTable(parar, page*10);
+    changeColor();
 }
 
+function changeColor(){
+    var newColor = document.getElementById(courseConsult).getAttribute('data-color');
+    const tableThreat = document.querySelectorAll(newColor+' thead th');
+    tableThreat.style.backgroundColor = '#000000';
+}
 
