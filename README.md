@@ -1,48 +1,61 @@
-# Laboratorio 01 AREP 2024-2
-## Consultor de Electivas Universitarias
+# Laboratory 01 AREP 2024-2
+
+## University Electives Consultant
+
 ***
 
-### Descripción
-Este proyecto tiene dos partes: Una es una API RESTful en Java que permite consultar las materias electivas disponibles para las carreras en una universidad. La API proporciona endpoints para obtener información detallada sobre las electivas, incluyendo nombre, código, créditos, tipo, prerrequisitos y el programa académico al que pertenecen.
-La otra es una aplicación web hecha con javascript que me permite filtrar la información de la API por las diferentes carreras
+### Description
 
-### Características:
-* Consulta de Materias Electivas: Obtén la lista completa de materias electivas disponibles.
-* Detalles de Materia: Consulta detalles específicos de una materia electiva, incluyendo créditos y requisitos.
-* Filtrado por Carrera: Filtra las materias electivas disponibles según la carrera académica.
-* Formato de Datos: Respuesta en formato JSON.
+This project has two parts: One is a RESTful API in Java that allows querying the elective courses available for university programs. The API provides endpoints to obtain detailed information about electives, including name, code, credits, type, prerequisites, and the academic program to which they belong.  
+The other is a web application made with JavaScript that allows me to filter the API information by different academic programs.
 
-### Requisitos:
-* Java: Versión 11 o superior.
-* JDK: Java Development Kit, necesario para compilar y ejecutar el proyecto.
-* IDE: Puedes usar cualquier entorno de desarrollo compatible con Java, como IntelliJ IDEA, Eclipse, o NetBeans.
-* Browser.
-* maven.
+### Features
 
-### Instalación:
+* Elective Course Query: Get the complete list of available elective courses.
+* Course Details: Query specific details of an elective course, including credits and prerequisites.
+* Filter by Program: Filter the available elective courses according to the academic program.
+* Data Format: JSON response format.
 
-* Primero descargamos el proyecto:
-    ```
+### Requirements
+
+* Java: Version 11 or higher.
+* JDK: Java Development Kit, required to compile and run the project.
+* IDE: You can use any Java-compatible development environment, such as IntelliJ IDEA, Eclipse, or NetBeans.
+* Browser: Any browser for open the webapp.
+* Maven: For build the proyect.
+
+### Installation
+
+* First, download the project:
+
+    ```bash
     git clone https://github.com/SebZaUr/Lab01-AREP.git
     ```
-* Entramos al proyecto:
-    ```
+
+* Enter the project directory:
+
+    ```bash
     cd Lab01-AREP
     ```
-* Construlla el proyecto utilizando Maven:
-    ```
+
+* Build the project using Maven:
+
+    ```bash
     mvn clean install
     ```
-* Ejecutamos este comando:
-    ```
+
+* Run this command:
+
+    ```bash
     java -cp target/Lab01-AREP-1.0-SNAPSHOT.jar org.example.model.SimpleWebServer
     ```
-El proyecto ya esta corriendo, para abrirlo de click en este link en su navegador [ECIELECTIVAS](http://locahost:8080).
 
-### Prueba
+The project is now running. To open it, click on this link in your browser: [ECIELECTIVAS](http://localhost:8080/electivas.html).
 
-Ingrese al siguiente link [Video_Prueba](https://youtu.be/YAz2ODy_GK0)
+### Test
+
+Access the following link: [Test Video](https://youtu.be/YAz2ODy_GK0)
 
 ***
 
-Autor: Sebastian Zamora Urrego.
+Author: Sebastian Zamora Urrego.
