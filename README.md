@@ -54,7 +54,7 @@ The project is now running. To open it, click on this link in your browser: [ECI
 
 ### Test
 
-Access the following link: [Test Video](https://youtu.be/YAz2ODy_GK0).
+Access the following link: [Test Video](https://www.youtube.com/watch?v=BHoclT-7cfk).
 
 ***
 
